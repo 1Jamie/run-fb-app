@@ -1,21 +1,23 @@
 {
-  "name": "FB-run",
-  "description": "Native Facebook App",
+  "version": "0.0.1",
+  "name": "run-Facebook",
+  "description": "The actuall runtime facebook app",
   "launch_path": "/index.html",
   "icons": {
-    "16": "/icons/icon16x16.png",
-    "48": "/icons/icon48x48.png",
-    "60": "/icons/icon60x60.png",
-    "128": "/icons/icon128x128.png"
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
   },
   "developer": {
-    "name": "Jamie_ & noida",
+    "name": "Jamie & Noida",
     "url": "http://example.com"
-  }
-}
-"type": "privileged",
+  },
+  "type": "privileged",
   "permissions": {
   "desktop-notification": {
     "description": "Needed for creating the notifcations."
   }
-  },
+  }
+}
+ 
